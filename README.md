@@ -1,2 +1,2 @@
 # vue-browserify-complete
-A Browserify + router + resource + vuex + blulma setup for quick prototypinp
+A Browserify + router + resource + vuex + bulma setup for quick prototypinp
