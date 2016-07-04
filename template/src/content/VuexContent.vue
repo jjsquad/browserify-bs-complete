@@ -1,7 +1,7 @@
 <template>
     Vuex Content
     <button @click="trySetUser">Vuex doAction</button>
-    {{user | json }}    
+    \{{user | json }}    
 </template>
 <script>
     export default{

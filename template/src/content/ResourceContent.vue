@@ -2,7 +2,7 @@
     Resuorce Content
 
     <button @click="onButtonClick">get foo.json</button> 
-    {{fooMessage}}
+    \{{fooMessage}}
 
 </template>
 <script>
