@@ -1,6 +1,6 @@
-# projectname
+# {{name}}
 
-> projectdescription
+> {{description}}
 
 ## Build Setup
 

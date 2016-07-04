@@ -2,7 +2,7 @@
     <div id="app">
         <nav class="nav">
             <div class="nav-left">
-                PROJECTNAME
+                {{name}}
             </div>
             <span class="nav-item">
                 <a v-link="{ path: '/' }" class="button is-primary">
