@@ -1,0 +1,19 @@
+{
+  "schema": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "label": "Project name"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "label": "Project description",
+      "default": "A Vue.js + router + resource + vuex + bluma project"
+    },
+    "author": {
+      "type": "string",
+      "label": "Author"
+    }
+  }
+}
