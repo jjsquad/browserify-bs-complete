@@ -1,4 +1,4 @@
-# vue-browserify-complete
+# browserify-complete
 A Browserify + router + resource + vuex + bulma setup for quick prototyping
 
 ### Usage
