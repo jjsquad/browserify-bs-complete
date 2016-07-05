@@ -7,7 +7,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init browserify-complete my-project
+$ vue init danielschmitz/browserify-complete my-project
 $ cd my-project
 $ npm install
 $ npm run dev
