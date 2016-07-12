@@ -20,7 +20,7 @@
                 },
                 logoutUser ({dispatch}) {
                     this.msg = 'user clear!'
-                    dispatch('LOGOUT_USER')
+                    dispatch('CLEAR_USER')
                 }
             }
         },

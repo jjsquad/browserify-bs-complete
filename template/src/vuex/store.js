@@ -13,7 +13,7 @@ export default new Vuex.Store({
       SET_USER (store, obj) {
         store.user = obj.user
       },
-      LOGOUT_USER (store) {
+      CLEAR_USER (store) {
         store.user = {}
 
       }

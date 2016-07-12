@@ -9,7 +9,7 @@
       "type": "string",
       "required": true,
       "label": "Project description",
-      "default": "A Vue.js + router + resource + vuex + bluma project"
+      "default": "A Vue.js + router + resource + vuex + bootstrap 3 project"
     },
     "author": {
       "type": "string",
