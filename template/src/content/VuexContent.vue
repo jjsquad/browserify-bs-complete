@@ -2,9 +2,9 @@
     <div>
         <h3>Vuex Content</h3>
         <button class="btn btn-success" @click="trySetUser">Vuex setUser</button>
-        <p><pre><p>user from vuex.store</p>{{user | json }}</pre></p>
+        <p><pre><span>user from vuex.store</span><br>{{user | json }}</pre></p>
         <button class="btn btn-danger" v-if="user.username" @click="logoutUser">Vuex clearUser</button>
-        <p><pre><p><p>msg from this.$data.msg</p>'{{msg}}'</p></pre></p>
+        <p><pre><span>msg from this.$data.msg</span><br>'{{msg}}'</pre></p>
     </div>
 </template>
 <script>
