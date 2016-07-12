@@ -3,7 +3,7 @@
         <h3>Resource Content</h3>
 
         <button class="btn btn-primary" @click="onButtonClick">get foo.json</button>
-        <p><pre><p>fooMessage from this.$data.fooMessage</p>{{ fooMessage || "''" }}</pre></p>
+        <p><pre><p>fooMessage from this.$data.fooMessage</p>{{ fooMessage || "\'\'" }}</pre></p>
     </div>
 </template>
 <script>
