@@ -6,13 +6,16 @@ Vue.use(Vuex)
 export default new Vuex.Store({  
     state: {
       user: {
-        username: '',
-        email: ''
+
       }
     },
     mutations: {
       SET_USER (store, obj) {
         store.user = obj.user
+      },
+      LOGOUT_USER (store) {
+        store.user = {}
+
       }
     }
   })

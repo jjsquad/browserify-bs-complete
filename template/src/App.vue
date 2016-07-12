@@ -1,29 +1,31 @@
 <template>
     <div id="app">
-        <nav class="nav">
-            <div class="nav-left">
-                {{name}}
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <span class="navbar-brand">vue-browcomplete with bootstrap</span>
             </div>
-            <span class="nav-item">
-                <a v-link="{ path: '/' }" class="button is-primary">
-                    <span class="icon">
-                    <i class="fa fa-home"></i>
-                    </span>
-                    <span>Main Content</span>
-                </a>
-                <a v-link="{ path: '/resourceExample' }" class="button is-primary">
-                    <span class="icon">
-                    <i class="fa fa-link"></i>
-                    </span>
-                    <span>Resource example</span>
-                </a>
-                <a v-link="{ path: '/vuexExample' }" class="button is-primary">
-                    <span class="icon">
-                    <i class="fa fa-bolt"></i>
-                    </span>
-                    <span>Vuex example</span>
-                </a>
-            </span>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a v-link="{ path: '/' }" class="navbar-link">
+                            <i class="fa fa-home"></i>
+                            <span>Main Content</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a v-link="{ path: '/resourceExample' }" class="navbar-link">
+                            <i class="fa fa-link"></i>
+                            <span>Resource example</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a v-link="{ path: '/vuexExample' }" class="navbar-link">
+                            <i class="fa fa-bolt"></i>
+                            <span>Vuex example</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <div class="container">
             <router-view></router-view>

@@ -1,9 +1,10 @@
 <template>
-    Resuorce Content
+    <div>
+        <h3>Resource Content</h3>
 
-    <button @click="onButtonClick">get foo.json</button> 
-    \{{fooMessage}}
-
+        <button class="btn btn-primary" @click="onButtonClick">get foo.json</button>
+        <p><pre><p>fooMessage from this.$data.fooMessage</p>{{ fooMessage || "''" | json }}</pre></p>
+    </div>
 </template>
 <script>
     export default{
@@ -14,7 +15,7 @@
         },
         methods :{
             onButtonClick() {
-                this.$http.get('/foo.json').then(
+                this.$http.get('assets/data/foo.json').then(
                 (response) => {
                     this.fooMessage = JSON.parse(response.data).msg
                 },
